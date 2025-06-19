@@ -108,14 +108,14 @@ useEffect(() => {
     'pic11.jpg','pic12.jpg'
   ];
   const memoryGameImages = [
-  { id: 1, image: '/game-images/game1.jpg' },
-  { id: 2, image: '/game-images/game1.jpg' }, // Pair 1
-  { id: 3, image: '/game-images/game2.jpg' },
-  { id: 4, image: '/game-images/game2.jpg' }, // Pair 2
-  { id: 5, image: '/game-images/game3.jpg' },
-  { id: 6, image: '/game-images/game3.jpg' }, // Pair 3
-  { id: 7, image: '/game-images/game4.jpg' },
-  { id: 8, image: '/game-images/game4.jpg' }  // Pair 4
+  { id: 1, image: '/game1.jpg' },
+  { id: 2, image: '/game1.jpg' }, // Pair 1
+  { id: 3, image: '/game2.jpg' },
+  { id: 4, image: '/game2.jpg' }, // Pair 2
+  { id: 5, image: '/game3.jpg' },
+  { id: 6, image: '/game3.jpg' }, // Pair 3
+  { id: 7, image: '/game4.jpg' },
+  { id: 8, image: '/game4.jpg' }  // Pair 4
 ];
 useEffect(() => {
   if (showMemoryGame) {
